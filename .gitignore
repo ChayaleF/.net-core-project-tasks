@@ -1,0 +1,57 @@
+# קבצי בינאריים
+*.dll
+*.exe
+*.so
+*.dylib
+*.tmp
+
+# קבצים הקשורים לבנייה
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+# הגדרות Build מהתיקייה bin ו-obj
+bin/
+obj/
+
+# קבצי חבילות ותלויות
+*.nupkg
+*.snupkg
+*.nuspec
+
+# תיקיות תלויות
+packages/
+.vscode/
+
+# תצורות ועבודת מערכת
+*.user
+*.userosscache
+*.suo
+*.sln.docstates
+
+# הגדרות Mac OS
+.DS_Store
+
+# קבצי מערכת של Windows
+Thumbs.db
+ehthumbs.db
+desktop.ini
+
+# קבצי סביבה של Rider ושל VS Code
+.idea/
+*.sln.iml
+.vscode/
+
+# קבצי הגדרה של קובצי סודיות מקומיים
+appsettings.Development.json
+appsettings.*.json
+
+# Log, עקבות, והודעות
+*.log
+*.tlog
+*.trace
+
+# קבצי ניהול קונטיינר - Docker
+.dockerignore
+docker-compose.yml
+Dockerfile
